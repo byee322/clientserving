@@ -1,12 +1,13 @@
 $(document).ready(function() {
+
   $('.awesomeness').on('click', function(e) {
   	e.preventDefault();
-  		$('.awesome').toggle("slow", "swing");
+  		$('.awesome').toggle("slow");
   });
 
   $('.notawesomeness').on('click', function(e) {
   	e.preventDefault();
-  		$('.notawesome').toggle("slow", "swing");
+  		$('.notawesome').toggle("slow");
   });
 
   $('.skill_teller').on('click', function(e){
